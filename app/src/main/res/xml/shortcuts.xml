@@ -1,0 +1,21 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/got"
+        android:shortcutDisabledMessage="@string/settings_disable_msg"
+        android:shortcutId="settings"
+        android:shortcutLongLabel="@string/settings_long_name"
+        android:shortcutShortLabel="@string/settings_short_name">
+
+<!--shortcutId, 不用多说, 这肯定是一个唯一的id
+    enabled, 表示这个shortcut是否可用
+    shortcutShortLabel, 这里是配置的短名称, 下面还会有长名称, 如果长名称显示不下, 就显示短名称
+    shortcutLongLabel, 这里是配置的长名称, launcher会优先选择长名称显示
+    shortcutDisabledMessage, 这个配置是在我们选择一个不可用的shortcut时给用户的一个提示-->
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.ranran.myapplication.Main2Activity"
+            android:targetPackage="com.ranran.myapplication" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

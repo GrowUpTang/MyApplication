@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ConstraintLayout</string>
+
+    <string name="settings_disable_msg">好的</string>
+    <string name="settings_long_name">我是DJ 那你呢</string>
+    <string name="settings_short_name">我不是</string>
+</resources>
