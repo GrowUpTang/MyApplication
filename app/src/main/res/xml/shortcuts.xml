@@ -6,7 +6,7 @@
         android:shortcutId="settings"
         android:shortcutLongLabel="@string/settings_long_name"
         android:shortcutShortLabel="@string/settings_short_name">
-
+<!--注意,shortcutLongLabel和shortcutShortLabel,不可以直接引用文字,不然会报错-->
 <!--shortcutId, 不用多说, 这肯定是一个唯一的id
     enabled, 表示这个shortcut是否可用
     shortcutShortLabel, 这里是配置的短名称, 下面还会有长名称, 如果长名称显示不下, 就显示短名称
